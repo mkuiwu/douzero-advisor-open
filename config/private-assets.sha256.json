@@ -1,0 +1,457 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_000331_00019.484_timeline.jpg",
+      "sha256": "5ef7d1a3ed9cb91b369a8d5666aa778d824992ddb6ca6ea6fed48bd32bb81e33"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_000373_00022.453_timeline.jpg",
+      "sha256": "ca0ad02b06926b553b258191df1b3c4dd832e066193420194466f468cefadef1"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001094_00063.984_timeline.jpg",
+      "sha256": "3abfff213be3e33ac77c2a379fedf3d07763b20db0efd279271d7f3ff0dcea77"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001098_00064.312_timeline.jpg",
+      "sha256": "5870fd61f8170674a9003369ac9a4f3717bb090718fd26c00a0cf7aafe08fb74"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001103_00064.750_timeline.jpg",
+      "sha256": "28c834e144c47606d9087655311b05fd1437ebf0020a1473ed141ff48f04d723"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001145_00068.375_timeline.jpg",
+      "sha256": "165ade607354b25a8b63a4b1c940c868ca277b481334997fd76fc72cd8584737"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001178_00070.984_timeline.jpg",
+      "sha256": "ab47786bb12f3cbefdf8af7e0fa9724b22dde7f55b4a6831bee9d14fb22f348a"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001202_00072.875_timeline.jpg",
+      "sha256": "274a060f3373f207add1fa9fac0b1f03cb06f5b0135cd958955ff800ae5afbe1"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001363_00085.484_timeline.jpg",
+      "sha256": "ff696bc22c997c2a61a7b2d8870874803ec7f3fb8b86e8f615118b2884ac999e"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001367_00085.797_timeline.jpg",
+      "sha256": "819fc34bdf0cb4ea083a1b7206798996d0767e0e6b85f90f4463b229847dee92"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001371_00086.109_timeline.jpg",
+      "sha256": "d73e489f2669dfd0c7856cd6eec74064beecb08517878f2f13df5fc2e866b600"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001593_00099.203_timeline.jpg",
+      "sha256": "d5d3a6ef05902e39ca4a13168c5ea2465d614b7351c02487481a7703c8b8ca41"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000477_00033.625_timeline.jpg",
+      "sha256": "d4d38fe9423a7cde0ee56166dd259644b93e4c010d915b25d19159f564a90d11"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000481_00033.953_timeline.jpg",
+      "sha256": "52cb5b70844654b2e80db20092244f7938799cba931bfa9dbff027091b27952f"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000501_00035.672_timeline.jpg",
+      "sha256": "aa0d73311aeb90792d44636eb5ed0a4cff56c32e94939febf3127294c5dfe78d"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000524_00037.610_timeline.jpg",
+      "sha256": "4525d89ff49693c019d65f635bf67ad010a14a5952c499f9f3d762cf229c7cb1"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000547_00039.594_timeline.jpg",
+      "sha256": "8fa4b932c4155866eeb8852913d469b9d85ca8cf8ef8a087c7fbc12fe32cd078"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000576_00042.078_timeline.jpg",
+      "sha256": "991559794846ba2919ad7ac38d1e625c2469d2a888ff4db1e8d7e8b99cfde183"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000822_00063.078_timeline.jpg",
+      "sha256": "cb899a82af3d038010c6173dc003684709b7f9d6722bddf7998c786feb5d420c"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000862_00066.516_timeline.jpg",
+      "sha256": "5a4786ad3be7aa80fa7df0aedacd87da5da5fad036853c50dc52491d9f93ceb1"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-154048-804a0eb8/frames/frame_000886_00068.547_timeline.jpg",
+      "sha256": "96541716ead2470b11a5b7d2505a62c707257d7be3c1ee44033377189d49f618"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001616_00053.297_anchor_timeline.jpg",
+      "sha256": "448920db7b25fb0553945471eceb926dad4563e2f3aae61643ea5f14cd6cd242"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001646_00054.297_anchor_timeline.jpg",
+      "sha256": "2df3c84b58ae72e2f35c25a44b2bdd9689c8d6770a3fca728d6422009a760e77"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001653_00054.516_anchor_timeline.jpg",
+      "sha256": "4c6e831149fe9414823ba2d0bd2dfe569894ceb5b73cc28400f52056515aaedd"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001661_00054.782_anchor_timeline.jpg",
+      "sha256": "d2750b4abffcf9f6c702fcecfc081048e284d547f72cc763716483027ccac4c1"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001803_00059.469_idle_timeline.jpg",
+      "sha256": "dc3f993a9ac395fa0317aa6e7d59a2ac0d3eab60eb9e2bc837a14c89942b4394"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001834_00060.485_idle_timeline.jpg",
+      "sha256": "d4d5c1bbef2b1b34d34354612b7c834ab2a7a72771b891a8e9de28e76952e496"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001865_00061.516_idle_timeline.jpg",
+      "sha256": "59ed9b89b195ac50133d44ef8bba5eb2361255750c0d20ea2511c779673c5be0"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001896_00062.532_idle_timeline.jpg",
+      "sha256": "a848ef8f8a109eda82ef5d718be8acf5a3a7eaa83f1476968a5aa2a8e0c04edc"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_002037_00067.188_anchor_timeline.jpg",
+      "sha256": "0e6228dd79d3b532821d31d9fb1d8a03a639acb1c40542db3c40c2833f6795a2"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_002367_00078.078_idle_timeline.jpg",
+      "sha256": "0397f56e27a848755638a75619826f5bbec81f733b97e68b5ce9982c44093183"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_002398_00079.110_idle_timeline.jpg",
+      "sha256": "b54c895549c88a1667001509eaf701304cbdd6dd199f6525843a43a04499ab6c"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_002627_00086.657_idle_timeline.jpg",
+      "sha256": "1f491e4cddab8e101a42d25b19efb318182d55e4824a1716841f8fcd14bd6e33"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_002688_00088.672_idle_timeline.jpg",
+      "sha256": "382c1be8e9dd39134deb7357a498f7f19a1ebebbcdb8b1112364a6f8229cffe9"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_002755_00090.891_anchor_timeline.jpg",
+      "sha256": "b467f76dbd52cbaf1dd6eb9624a2e66cbc3d1bfd22be6b4b11d81cb3bb479233"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_001488_00049.078_idle_timeline.jpg",
+      "sha256": "78090d2ab8ca4075fa7fe401f258e172499d958cd57c390cbbddc98f321ea82d"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_001519_00050.093_idle_timeline.jpg",
+      "sha256": "5d28cb2f9ed6060d61cc9cccbcd905e0af772b825260b5728a179679e29825af"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_001580_00052.109_idle_timeline.jpg",
+      "sha256": "1fa1b13d17385d2002ad8fcaa8fc7d2efcaff81fcaf91a223fe09b27cfbf6894"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_001641_00054.125_idle_timeline.jpg",
+      "sha256": "02eda90b5be613c3b91b135abdcdefe1664c648e4752cb8ca875d07475bb0a61"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_001733_00057.156_idle_timeline.jpg",
+      "sha256": "bab5748d7099f69be8c3354a73d7b5caf689ef29d52ce84678d3035e096a64b1"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_002042_00067.359_idle_timeline.jpg",
+      "sha256": "7aa5e01da5e68874a7fd2c2daac5808e93f9bfc2afb0155ce95d52b127eba1c3"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_002195_00072.406_idle_timeline.jpg",
+      "sha256": "9941ae3267da3eb3053744332afdfdea9589ddbbba98219ecc7c8ee98cd9b412"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_002403_00079.500_anchor_timeline.jpg",
+      "sha256": "f5665812c78735e1e81cd9fe0bd0e3c457e82540122b6ca761abdc8dd64ce38b"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_000911_00045.500_idle_timeline.jpg",
+      "sha256": "8958171fe0a079fd5b93d44df9d2a3202dcf4749d8ece8a3b8aafe7a6d554e38"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001033_00051.610_idle_timeline.jpg",
+      "sha256": "7422bd0e446d525bc810c18485b8d1e3fc55ddbbf08bcdeaedcc3295a395d7fe"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001075_00053.703_idle_timeline.jpg",
+      "sha256": "125eeebf11a76c39d17bafd7c539d2d87b84b394aa2eb9f7f5b9288835690417"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001176_00058.750_idle_timeline.jpg",
+      "sha256": "af38b1ff5519b7084e4ed131235a3311a16756f337370bdc22564278fd9c663b"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001224_00061.157_anchor_timeline.jpg",
+      "sha256": "ca6a2f36d997c8863527dae340d87c1fd4a6c656a4bf0431ee506d4d089f22a2"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001564_00078.157_idle_timeline.jpg",
+      "sha256": "a86ed410519187badd59405700c25ec531d60b08a7909eaf621612920060925a"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001604_00080.157_idle_timeline.jpg",
+      "sha256": "2056cb5dd1fe03621ce43fc77c433f06a4fba7e17a619a3620f94ec0bea8f6eb"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001651_00082.500_anchor_timeline.jpg",
+      "sha256": "fa5a954c989654dd46d39cbd249688a999257b4135a1cee039a8e00c9a6a1e3f"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001950_00097.453_anchor_timeline.jpg",
+      "sha256": "9a0ef5f9ef88c9e3a547467f11d54a8c3aa3c3f3cd48bb83c615d0200601e187"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001956_00097.750_anchor_timeline.jpg",
+      "sha256": "98dd095c9c5f82a36d9961b7fc8fb87638e1813d92cb4d8048d528b25aba67f6"
+    },
+    {
+      "path": "config/live-calibration/checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001962_00098.063_anchor_timeline.jpg",
+      "sha256": "3538d0a9e79bb6f41e9f7c483ca669f61ce1f788d988ab31a487373426adcf27"
+    },
+    {
+      "path": "config/live-calibration/deal-recordings/run-1787028385238197500/frame_00204_seq_000205.jpg",
+      "sha256": "0de7e35a2be94d2a607436bb50e70ae69fed10e782af4f774b625e9b7b10ecc8"
+    },
+    {
+      "path": "config/live-calibration/deal-recordings/run-1787033653923372300/frame_00059_seq_000060.jpg",
+      "sha256": "ef9dc6213e7b1878d51791b733e7a857c90b002c87b078873047c7944323c914"
+    },
+    {
+      "path": "config/live-calibration/joker-word/big-joker-full-word.jpg",
+      "sha256": "bd7f6272a836fa5fac7b11c47f9a4c1ad40e358d48d3abf83c931163ae595ae3"
+    },
+    {
+      "path": "config/live-calibration/joker-word/big-joker-right-five-glyphs.jpg",
+      "sha256": "cf5eb177c032eb3add7aa5c3f6de831df8c0c83f30513da2dd95aeb6f525afbe"
+    },
+    {
+      "path": "config/live-calibration/joker-word/big-joker-wgc-e079.jpg",
+      "sha256": "defb1967809941eaffca0f4f34e8cd7c9189e2da96452f93d3fd242b42dd0107"
+    },
+    {
+      "path": "config/live-calibration/joker-word/small-joker-full-word.jpg",
+      "sha256": "022b1e9fb6de8dd39696ee0a21b397d0975af237574f7322deced6b9bfebf776"
+    },
+    {
+      "path": "config/live-calibration/joker-word/small-joker-left-full-word.png",
+      "sha256": "591d040cb1a3fa6ce0fd140df5c138caa27c5e6fd6004ffd7dfe54612ef8f86a"
+    },
+    {
+      "path": "config/live-calibration/scene-sessions/scene-20260816-081732-3f4b1629/frame_0008_change_0008.047.png",
+      "sha256": "2f0f80cc1546c3ff2d5769350dc6930b31820ef34a67f3e92bd3cb371c50bc3a"
+    },
+    {
+      "path": "config/live-calibration/scene-sessions/scene-20260816-081732-3f4b1629/frame_0081_change_0083.390.png",
+      "sha256": "faf473d8bf3b1a156cbe4c68dd856e27265ee9afa810980486970f20105ace18"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_644.jpg",
+      "sha256": "ab948375fafdf1c3539d8a1d3707b634ea0881e1485fcd16451459574c9d0100"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_644_late.jpg",
+      "sha256": "38a4ce09146aa668c6dc9c028e43f869534090369fae8a635303e985bbed80ad"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_a84.jpg",
+      "sha256": "22cd25b4414382d4b006a815630613ed893cf6b726096928e733b688a1e6a920"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_a84_late.jpg",
+      "sha256": "2612534d131b74013f47711731d435770fe07832eb538252b69c00c2249f3fb5"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_akq_play.jpg",
+      "sha256": "84fec7ba133c09b97ea8669c483cdfae8361763391585978b3f763b3b6bf8051"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_akq_settlement.jpg",
+      "sha256": "62e4483aa6384117122eacd0f3841beef30b8a96cb863d0b7288444085c05d7d"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_j33_late.jpg",
+      "sha256": "b886084d4d7d3fd0aad7f1cb4afbc8e7fa03ee6b3a94f37f52ca24e8eecc75ff"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_k73.jpg",
+      "sha256": "015a2cc32b42cf632792d68558017b5b007fe21e6dde9c8796f701e1b33f6a49"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_k73_late.jpg",
+      "sha256": "cb5ac828c6162685881e7c1fb43bf7453ad44576e1e3d61b24e23ade68202db0"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_kq10_late.jpg",
+      "sha256": "c85d791d22de6baa119d8c813af976c9be4c6a11540d860e41dd85ff6e402b74"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_kqq_doubling.jpg",
+      "sha256": "521ebc6e5aaa810133b2d7da128fab7f37c40eb1d4457c2e81e303bb043b5686"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_x24_double.jpg",
+      "sha256": "0de7e35a2be94d2a607436bb50e70ae69fed10e782af4f774b625e9b7b10ecc8"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_x24_late_double.jpg",
+      "sha256": "9ce09478a05d30c527365225d31973fc8c16a3df8a3b2c97af223612846beb59"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/bottom-calibration/frame_20260818_x24_settlement.jpg",
+      "sha256": "ff3e9827fa4c153fe6c5c1d4d0c357838475d029d68cefbf590801be766a2c30"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0006_stable_after_change_0025.052.png",
+      "sha256": "ae53b80f6240536055eb6ef1d365554d9748cbb68329aee3d07371c5a58db8b1"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0011_stable_after_change_0042.646.png",
+      "sha256": "f195088e05b9de1895c5233ebdbff51a5ef3b4b9914414cdbd876c2fcb06ccf7"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0013_stable_after_change_0050.520.png",
+      "sha256": "30c933122171c481c63fd873072b8e79e5b66de8954a80048e6b3415d983e834"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0017_stable_after_change_0060.582.png",
+      "sha256": "fc212c86b503700a554256fd4249590b71de5666397bd7ebd6a1494c873b9076"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0021_stable_after_change_0068.864.png",
+      "sha256": "4a664a5a76973d3c42e11e7bef1c1704a2c013dfaa6fb654630d80255c8c9ffb"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0026_stable_after_change_0091.146.png",
+      "sha256": "e350b00bba242bb01f272b7588b41aea21950197d48912d9269696d2f5de3a83"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0029_stable_after_change_0097.615.png",
+      "sha256": "6c9e9fe8d356ee79dfd49f4c2e88189e419bd1ca9491debefca5ae44c6174fa9"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-223120/frame_0051_stable_after_change_0158.646.png",
+      "sha256": "528909e83b27dcd32113ef69ad0842af94f79fb9f961d1821a616eb54609cf8d"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-232655/frame_0094_stable_after_change_0282.340.png",
+      "sha256": "3c18226541fe6ad98543b7653e7780a0e93e5b25b184ad92fb9137cf5179f51b"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-233322/frame_0030_stable_after_change_0106.541.png",
+      "sha256": "7a2350700579c06343fb8aaab890774127add95594c95e457f823b14eb9c4844"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-233322/frame_0040_stable_after_change_0128.854.png",
+      "sha256": "d412b7dacca8d7b8b2a9a32233fe9758deee4fdb6b110e57f4b0b57fd8a4ea6f"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-233322/frame_0080_stable_after_change_0257.198.png",
+      "sha256": "6fe2f49f6d884be9d544b4b944a8747ef6a48a699193bf015375bbfb8dad9bfe"
+    },
+    {
+      "path": "config/live-calibration/wgc/captures/game-20260815-233322/frame_0092_stable_after_change_0296.010.png",
+      "sha256": "395e6925d642b3c1b14c68b836354a31f43ea657f523eeebc6519f1462c663a6"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/015a2cc32b42cf632792d68558017b5b007fe21e6dde9c8796f701e1b33f6a49.jpg",
+      "sha256": "015a2cc32b42cf632792d68558017b5b007fe21e6dde9c8796f701e1b33f6a49"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/0de7e35a2be94d2a607436bb50e70ae69fed10e782af4f774b625e9b7b10ecc8.jpg",
+      "sha256": "0de7e35a2be94d2a607436bb50e70ae69fed10e782af4f774b625e9b7b10ecc8"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/22cd25b4414382d4b006a815630613ed893cf6b726096928e733b688a1e6a920.jpg",
+      "sha256": "22cd25b4414382d4b006a815630613ed893cf6b726096928e733b688a1e6a920"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/2612534d131b74013f47711731d435770fe07832eb538252b69c00c2249f3fb5.jpg",
+      "sha256": "2612534d131b74013f47711731d435770fe07832eb538252b69c00c2249f3fb5"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/2f0f80cc1546c3ff2d5769350dc6930b31820ef34a67f3e92bd3cb371c50bc3a.png",
+      "sha256": "2f0f80cc1546c3ff2d5769350dc6930b31820ef34a67f3e92bd3cb371c50bc3a"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/38a4ce09146aa668c6dc9c028e43f869534090369fae8a635303e985bbed80ad.jpg",
+      "sha256": "38a4ce09146aa668c6dc9c028e43f869534090369fae8a635303e985bbed80ad"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/395e6925d642b3c1b14c68b836354a31f43ea657f523eeebc6519f1462c663a6.png",
+      "sha256": "395e6925d642b3c1b14c68b836354a31f43ea657f523eeebc6519f1462c663a6"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/3c18226541fe6ad98543b7653e7780a0e93e5b25b184ad92fb9137cf5179f51b.png",
+      "sha256": "3c18226541fe6ad98543b7653e7780a0e93e5b25b184ad92fb9137cf5179f51b"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/48698d882a0d2189c43793bef9851fede98a943553799e40420ba8d5da984f59.jpg",
+      "sha256": "48698d882a0d2189c43793bef9851fede98a943553799e40420ba8d5da984f59"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/521ebc6e5aaa810133b2d7da128fab7f37c40eb1d4457c2e81e303bb043b5686.jpg",
+      "sha256": "521ebc6e5aaa810133b2d7da128fab7f37c40eb1d4457c2e81e303bb043b5686"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/62e4483aa6384117122eacd0f3841beef30b8a96cb863d0b7288444085c05d7d.jpg",
+      "sha256": "62e4483aa6384117122eacd0f3841beef30b8a96cb863d0b7288444085c05d7d"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/6539c3dae24126a49825b33c87b246af1483084893ac2c12761a88c21825a229.png",
+      "sha256": "6539c3dae24126a49825b33c87b246af1483084893ac2c12761a88c21825a229"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/84fec7ba133c09b97ea8669c483cdfae8361763391585978b3f763b3b6bf8051.jpg",
+      "sha256": "84fec7ba133c09b97ea8669c483cdfae8361763391585978b3f763b3b6bf8051"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/9ce09478a05d30c527365225d31973fc8c16a3df8a3b2c97af223612846beb59.jpg",
+      "sha256": "9ce09478a05d30c527365225d31973fc8c16a3df8a3b2c97af223612846beb59"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/ab948375fafdf1c3539d8a1d3707b634ea0881e1485fcd16451459574c9d0100.jpg",
+      "sha256": "ab948375fafdf1c3539d8a1d3707b634ea0881e1485fcd16451459574c9d0100"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/ae53b80f6240536055eb6ef1d365554d9748cbb68329aee3d07371c5a58db8b1.png",
+      "sha256": "ae53b80f6240536055eb6ef1d365554d9748cbb68329aee3d07371c5a58db8b1"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/b886084d4d7d3fd0aad7f1cb4afbc8e7fa03ee6b3a94f37f52ca24e8eecc75ff.jpg",
+      "sha256": "b886084d4d7d3fd0aad7f1cb4afbc8e7fa03ee6b3a94f37f52ca24e8eecc75ff"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/c85d791d22de6baa119d8c813af976c9be4c6a11540d860e41dd85ff6e402b74.jpg",
+      "sha256": "c85d791d22de6baa119d8c813af976c9be4c6a11540d860e41dd85ff6e402b74"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/cb5ac828c6162685881e7c1fb43bf7453ad44576e1e3d61b24e23ade68202db0.jpg",
+      "sha256": "cb5ac828c6162685881e7c1fb43bf7453ad44576e1e3d61b24e23ade68202db0"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/ef9dc6213e7b1878d51791b733e7a857c90b002c87b078873047c7944323c914.jpg",
+      "sha256": "ef9dc6213e7b1878d51791b733e7a857c90b002c87b078873047c7944323c914"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/faf473d8bf3b1a156cbe4c68dd856e27265ee9afa810980486970f20105ace18.png",
+      "sha256": "faf473d8bf3b1a156cbe4c68dd856e27265ee9afa810980486970f20105ace18"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/ff3e9827fa4c153fe6c5c1d4d0c357838475d029d68cefbf590801be766a2c30.jpg",
+      "sha256": "ff3e9827fa4c153fe6c5c1d4d0c357838475d029d68cefbf590801be766a2c30"
+    },
+    {
+      "path": "tests/fixtures/core_cases/bottom/ffd08d2e28b495aa31b0fb2f200b83edc458d06d70889f6734943af79b6f0094.png",
+      "sha256": "ffd08d2e28b495aa31b0fb2f200b83edc458d06d70889f6734943af79b6f0094"
+    }
+  ]
+}

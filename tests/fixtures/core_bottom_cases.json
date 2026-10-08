@@ -1,0 +1,66 @@
+{
+  "description": "Small immutable bottom-card set. Holdout cases are disjoint from calibration; entries marked calibration-only have no surviving independent appearance.",
+  "calibration": [
+    {"path":"2f0f80cc1546c3ff2d5769350dc6930b31820ef34a67f3e92bd3cb371c50bc3a.png","sha256":"2f0f80cc1546c3ff2d5769350dc6930b31820ef34a67f3e92bd3cb371c50bc3a","cards":["J","5","3"],"source":"../../scene-sessions/scene-20260816-081732-3f4b1629/frame_0008_change_0008.047.png"},
+    {"path":"faf473d8bf3b1a156cbe4c68dd856e27265ee9afa810980486970f20105ace18.png","sha256":"faf473d8bf3b1a156cbe4c68dd856e27265ee9afa810980486970f20105ace18","cards":["D","2","10"],"source":"../../scene-sessions/scene-20260816-081732-3f4b1629/frame_0081_change_0083.390.png"},
+    {"path":"ae53b80f6240536055eb6ef1d365554d9748cbb68329aee3d07371c5a58db8b1.png","sha256":"ae53b80f6240536055eb6ef1d365554d9748cbb68329aee3d07371c5a58db8b1","cards":["2","10","9"],"source":"game-20260815-223120/frame_0006_stable_after_change_0025.052.png"},
+    {"path":"395e6925d642b3c1b14c68b836354a31f43ea657f523eeebc6519f1462c663a6.png","sha256":"395e6925d642b3c1b14c68b836354a31f43ea657f523eeebc6519f1462c663a6","cards":["2","K","5"],"source":"game-20260815-233322/frame_0092_stable_after_change_0296.010.png"},
+    {"path":"3c18226541fe6ad98543b7653e7780a0e93e5b25b184ad92fb9137cf5179f51b.png","sha256":"3c18226541fe6ad98543b7653e7780a0e93e5b25b184ad92fb9137cf5179f51b","cards":["A","K","5"],"source":"game-20260815-232655/frame_0094_stable_after_change_0282.340.png"},
+    {"path":"521ebc6e5aaa810133b2d7da128fab7f37c40eb1d4457c2e81e303bb043b5686.jpg","sha256":"521ebc6e5aaa810133b2d7da128fab7f37c40eb1d4457c2e81e303bb043b5686","cards":["K","Q","Q"],"source":"bottom-calibration/frame_20260818_kqq_doubling.jpg"},
+    {"path":"015a2cc32b42cf632792d68558017b5b007fe21e6dde9c8796f701e1b33f6a49.jpg","sha256":"015a2cc32b42cf632792d68558017b5b007fe21e6dde9c8796f701e1b33f6a49","cards":["K","7","3"],"source":"bottom-calibration/frame_20260818_k73.jpg"},
+    {"path":"ab948375fafdf1c3539d8a1d3707b634ea0881e1485fcd16451459574c9d0100.jpg","sha256":"ab948375fafdf1c3539d8a1d3707b634ea0881e1485fcd16451459574c9d0100","cards":["6","4","4"],"source":"bottom-calibration/frame_20260818_644.jpg"},
+    {"path":"0de7e35a2be94d2a607436bb50e70ae69fed10e782af4f774b625e9b7b10ecc8.jpg","sha256":"0de7e35a2be94d2a607436bb50e70ae69fed10e782af4f774b625e9b7b10ecc8","cards":["X","2","4"],"source":"bottom-calibration/frame_20260818_x24_double.jpg"},
+    {"path":"9ce09478a05d30c527365225d31973fc8c16a3df8a3b2c97af223612846beb59.jpg","sha256":"9ce09478a05d30c527365225d31973fc8c16a3df8a3b2c97af223612846beb59","cards":["X","2","4"],"source":"bottom-calibration/frame_20260818_x24_late_double.jpg"},
+    {"path":"62e4483aa6384117122eacd0f3841beef30b8a96cb863d0b7288444085c05d7d.jpg","sha256":"62e4483aa6384117122eacd0f3841beef30b8a96cb863d0b7288444085c05d7d","cards":["A","K","Q"],"source":"bottom-calibration/frame_20260818_akq_settlement.jpg"},
+    {"path":"38a4ce09146aa668c6dc9c028e43f869534090369fae8a635303e985bbed80ad.jpg","sha256":"38a4ce09146aa668c6dc9c028e43f869534090369fae8a635303e985bbed80ad","cards":["6","4","4"],"source":"bottom-calibration/frame_20260818_644_late.jpg","evidence":"calibration-only"},
+    {"path":"c85d791d22de6baa119d8c813af976c9be4c6a11540d860e41dd85ff6e402b74.jpg","sha256":"c85d791d22de6baa119d8c813af976c9be4c6a11540d860e41dd85ff6e402b74","cards":["K","Q","10"],"source":"bottom-calibration/frame_20260818_kq10_late.jpg","evidence":"calibration-only"},
+    {"path":"b886084d4d7d3fd0aad7f1cb4afbc8e7fa03ee6b3a94f37f52ca24e8eecc75ff.jpg","sha256":"b886084d4d7d3fd0aad7f1cb4afbc8e7fa03ee6b3a94f37f52ca24e8eecc75ff","cards":["J","3","3"],"source":"bottom-calibration/frame_20260818_j33_late.jpg","evidence":"calibration-only"},
+    {"path":"ff3e9827fa4c153fe6c5c1d4d0c357838475d029d68cefbf590801be766a2c30.jpg","sha256":"ff3e9827fa4c153fe6c5c1d4d0c357838475d029d68cefbf590801be766a2c30","cards":["X","2","4"],"source":"bottom-calibration/frame_20260818_x24_settlement.jpg"},
+    {"path":"22cd25b4414382d4b006a815630613ed893cf6b726096928e733b688a1e6a920.jpg","sha256":"22cd25b4414382d4b006a815630613ed893cf6b726096928e733b688a1e6a920","cards":["A","8","4"],"source":"bottom-calibration/frame_20260818_a84.jpg"},
+    {"path":"ef9dc6213e7b1878d51791b733e7a857c90b002c87b078873047c7944323c914.jpg","sha256":"ef9dc6213e7b1878d51791b733e7a857c90b002c87b078873047c7944323c914","cards":["X","K","8"],"source":"../../deal-recordings/run-1787033653923372300/frame_00059_seq_000060.jpg"}
+  ],
+  "cases": [
+    {
+      "name": "development-j53",
+      "path": "ffd08d2e28b495aa31b0fb2f200b83edc458d06d70889f6734943af79b6f0094.png",
+      "sha256": "ffd08d2e28b495aa31b0fb2f200b83edc458d06d70889f6734943af79b6f0094",
+      "cards": ["J", "5", "3"],
+      "source": "scene-20260816-081732-3f4b1629/frame_0011_change_0011.609.png"
+    },
+    {
+      "name": "animated-d210",
+      "path": "6539c3dae24126a49825b33c87b246af1483084893ac2c12761a88c21825a229.png",
+      "sha256": "6539c3dae24126a49825b33c87b246af1483084893ac2c12761a88c21825a229",
+      "cards": ["D", "2", "10"],
+      "source": "scene-20260816-081732-3f4b1629/frame_0084_change_0087.609.png"
+    },
+    {
+      "name": "red-nine-977",
+      "path": "48698d882a0d2189c43793bef9851fede98a943553799e40420ba8d5da984f59.jpg",
+      "sha256": "48698d882a0d2189c43793bef9851fede98a943553799e40420ba8d5da984f59",
+      "cards": ["9", "7", "7"],
+      "source": "run-1787119817614551700/frame_01250_seq_001251.jpg"
+    },
+    {
+      "name": "late-k73",
+      "path": "cb5ac828c6162685881e7c1fb43bf7453ad44576e1e3d61b24e23ade68202db0.jpg",
+      "sha256": "cb5ac828c6162685881e7c1fb43bf7453ad44576e1e3d61b24e23ade68202db0",
+      "cards": ["K", "7", "3"],
+      "source": "bottom-calibration/frame_20260818_k73_late.jpg"
+    },
+    {
+      "name": "akq-play-overlay",
+      "path": "84fec7ba133c09b97ea8669c483cdfae8361763391585978b3f763b3b6bf8051.jpg",
+      "sha256": "84fec7ba133c09b97ea8669c483cdfae8361763391585978b3f763b3b6bf8051",
+      "cards": ["A", "K", "Q"],
+      "source": "bottom-calibration/frame_20260818_akq_play.jpg"
+    },
+    {
+      "name": "late-a84",
+      "path": "2612534d131b74013f47711731d435770fe07832eb538252b69c00c2249f3fb5.jpg",
+      "sha256": "2612534d131b74013f47711731d435770fe07832eb538252b69c00c2249f3fb5",
+      "cards": ["A", "8", "4"],
+      "source": "bottom-calibration/frame_20260818_a84_late.jpg"
+    }
+  ]
+}

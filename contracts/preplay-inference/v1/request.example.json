@@ -1,0 +1,1 @@
+{"contractVersion":"preplay-inference.v1","requestId":"preplay-model-3","dealId":"deal-42","generation":7,"modelId":"legacy-fullauto-preplay","deadlineMs":8000,"stage":"double","hand":["D","X","2","2","A","K","Q","J","10","9","8","7","6","5","4","3","3"],"bottomCards":[],"availableActions":["super_double","double","no_double"],"callPromptSeen":true,"robPromptSeen":true}

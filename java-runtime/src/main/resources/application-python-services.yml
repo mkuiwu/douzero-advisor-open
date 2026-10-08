@@ -1,0 +1,30 @@
+spring:
+  config:
+    activate:
+      on-profile: python-services
+  main:
+    # 非 Web 接线服务保持 JVM 存活，直到 IDEA Stop 或 Ctrl+C 触发统一回收。
+    keep-alive: true
+
+# 仅启动两个 Python 子进程并完成 READY 握手；不启动 GameOrchestrator。
+# 命令按参数拆分，避免 shell 拼接和路径空格造成歧义。
+douzero:
+  recognition:
+    enabled: true
+    command:
+      - cmd.exe
+      - /c
+      - Run-DouZeroRecognitionService.cmd
+    calibration-manifest: tests/fixtures/live_capture_manifest.json
+    startup-timeout-ms: 5000
+  model:
+    enabled: true
+    command:
+      - cmd.exe
+      - /c
+      - Run-DouZeroModelService.cmd
+    name: resnet2
+    # 该 profile 只等待 CPU 模型完成 checkpoint 校验并发送 READY，不执行正式推理。
+    timeout-ms: 10000
+  orchestration:
+    enabled: false

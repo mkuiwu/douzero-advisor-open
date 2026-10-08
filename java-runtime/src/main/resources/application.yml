@@ -1,0 +1,74 @@
+spring:
+  main:
+    web-application-type: none
+
+douzero:
+  recognition:
+    enabled: false
+    command: []
+    calibration-manifest: ""
+    startup-timeout-ms: 5000
+  model:
+    enabled: false
+    command: []
+    name: "resnet2"
+    timeout-ms: 1500
+  preplay-model:
+    enabled: false
+    command: []
+    legacy-root: ""
+    model-id: ""
+    timeout-ms: 1500
+  execution:
+    # 默认只读模式；live-runtime profile 会为固定自动不出启动执行 Worker。
+    # auto-submit 只控制普通出牌按钮，自动不出有独立且固定的配置。
+    enabled: false
+    command: []
+    calibration-manifest: ""
+    startup-timeout-ms: 5000
+    # 单次出牌执行硬截止时间，包含截图核对、选牌验证、（条件）点击和结果确认。
+    execute-ms: 10000
+    # 渐进模式：false 只选牌不点击提交，供用户在游戏画面手工确认；true 自动点击提交。
+    auto-submit: false
+    card-play-enabled: false
+    # 正式模型明确 PASS 时自动点击“要不起”或“不要”，不受桌面端开关或启动参数控制。
+    auto-pass-enabled: true
+    # PASS 建议出现后，等待 1.5 秒再重新读取按钮并点击，单位毫秒。
+    auto-pass-delay-ms: 1500
+    preplay-buttons-enabled: false
+  orchestration:
+    # 设为 false 可只启动 Python 识别/模型服务，不创建 Java 状态机。
+    enabled: true
+    new-game-ms: 30000
+    preplay-recognition-ms: 15000
+    deal-ms: 45000
+    settlement-ms: 600000
+    # 只等待下一次本方稳定回合；Python CV 负责最终成功或失败。
+    local-turn-ms: 30000
+    # 建议展示后等待当前本方回合离开；由 Python CV 根据基线快照确认。
+    turn-end-ms: 30000
+    preplay-decision-ms: 8000
+    play-decision-ms: 1500
+  desktop:
+    # Electron 联合启动时通过环境变量显式开启；令牌只存在于父子进程环境中。
+    enabled: ${DOUZERO_DESKTOP_WS_ENABLED:false}
+    port: ${DOUZERO_DESKTOP_WS_PORT:17373}
+    token: ${DOUZERO_DESKTOP_WS_TOKEN:}
+    startup-timeout-ms: 5000
+  tts:
+    enabled: false
+    endpoint: ""
+    voice: ""
+  logging:
+    directory: "./logs"
+    file-name: "all.log"
+    error-file-name: "error.log"
+    warn-file-name: "warn.log"
+    startup-file-prefix: "startup"
+    level: "INFO"
+    root-level: "INFO"
+    max-history: 14
+    max-file-size: "50MB"
+  statistics:
+    enabled: false
+    storage: "./data/douzero.db"

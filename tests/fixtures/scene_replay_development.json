@@ -1,0 +1,946 @@
+{
+  "version": 1,
+  "session_id": "scene-20260816-081732-3f4b1629",
+  "session_split": "development",
+  "session_root": "C:/work/douzero-advisor-spikes/scene-sessions/scene-20260816-081732-3f4b1629",
+  "expected_frame_count": 150,
+  "replay_rules": {
+    "expected_deal_count": 2,
+    "require_no_duplicate_advice": true,
+    "require_no_cross_deal_evidence": true
+  },
+  "bottom_truth_frames": [
+    {"sequence": 15, "cards": ["J", "5", "3"]},
+    {"sequence": 81, "cards": ["D", "2", "10"]}
+  ],
+  "frames": [
+    {
+      "sequence": 1,
+      "path": "frame_0001_initial_0000.375.png",
+      "sha256": "2f6ae77e6e3cff401443ebf77b3014112e2e5a4579ce6b43ce00e5912480175c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 2,
+      "path": "frame_0002_change_0001.125.png",
+      "sha256": "b789c7501924509967b0ffe5b3a390994d14e19e55fb59181052fc6294914bec",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 3,
+      "path": "frame_0003_change_0002.234.png",
+      "sha256": "a644151c9a590d1826b1b29f8390f4e6ab3d6e710187ba93f26ff24b03cc3900",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 4,
+      "path": "frame_0004_change_0003.515.png",
+      "sha256": "27aa7bad137eaecb9ec0fd2c722553fb2ead4b58e952aa3c87e58df16fdcd65a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 5,
+      "path": "frame_0005_change_0005.359.png",
+      "sha256": "c8b10e03f69cd4d3a16378f4593f9171b8764ffc1103c208cdd4d3e0976a9e75",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 6,
+      "path": "frame_0006_stable_0006.234.png",
+      "sha256": "b45efa6f80dc6cad24edde692fdcf6a4c7fa6929f4df185e5398b49662b913e1",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 7,
+      "path": "frame_0007_change_0007.218.png",
+      "sha256": "4527131322a91d0185177bbdca6d5212ad961d7461722376d6e3f7a4cc7b648e",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 8,
+      "path": "frame_0008_change_0008.047.png",
+      "sha256": "2a3cf28d3fc24ad57d3ee75e0f1ce8fbb865ef874bbbabc28c0d1169ecae4c09",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 9,
+      "path": "frame_0009_stable_0009.797.png",
+      "sha256": "dcbf32ba902ea2632cf59510e37fef5f6f64635be059449300b861ffbd81eb41",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 10,
+      "path": "frame_0010_change_0010.859.png",
+      "sha256": "16e77a0be3d1dbafd14e50a2b32dea5c2e13131f09beceac58f7112d302c97ce",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 11,
+      "path": "frame_0011_change_0011.609.png",
+      "sha256": "accbd76539cce085958dc7a2f351aee68962b460fc59403449da948f1e8cc8f0",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 12,
+      "path": "frame_0012_change_0012.359.png",
+      "sha256": "68afb03d6744703aa9faf20a9225d8311584cde26b9aa6e92f10ffc6977e1e7a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 13,
+      "path": "frame_0013_change_0013.640.png",
+      "sha256": "46ce90dc354e4d5e05fd4a6f8909846a2a19d3a97ea4335e7ce8f5745d42e362",
+      "phase_milestone": "deal-0001_role_lock"
+    },
+    {
+      "sequence": 14,
+      "path": "frame_0014_stable_0014.859.png",
+      "sha256": "7259123d731a37760a84f38fac3da6a96600abf93867a89dc9e0f7d27e2c584c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 15,
+      "path": "frame_0015_stable_0015.609.png",
+      "sha256": "c010ece48705cd7a3d3ab57de89656fb6bb455731e344b697ad662af9687dae4",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 16,
+      "path": "frame_0016_change_0017.859.png",
+      "sha256": "73566659ad3b1e1dc12cafe68ac54acc22466019158016abcb779dc812e94c13",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 17,
+      "path": "frame_0017_stable_0019.297.png",
+      "sha256": "fa622d448f1c6062a7c3e33b2f4429b9cd28f53acb5627c204b5d61f46d4382b",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 18,
+      "path": "frame_0018_stable_0020.422.png",
+      "sha256": "556f1f1c9c7ad08e0c65cfb44dda7357585c706445e3f9b3a44aa4dbf29af505",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 19,
+      "path": "frame_0019_change_0021.172.png",
+      "sha256": "9495366828a1913f8252654965c3f14cb226306bc225654ea4326de7df457ec2",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 20,
+      "path": "frame_0020_change_0022.328.png",
+      "sha256": "56c5ff6f15059974892919a2884e3bfa98e1427d343e01d1a6799763610155d6",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 21,
+      "path": "frame_0021_change_0023.390.png",
+      "sha256": "6a83e4bd087988c398eac2a1bd81f32e56d8fd9878a2e8e7f9dd99420beff500",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 22,
+      "path": "frame_0022_stable_0024.312.png",
+      "sha256": "ddf8717969c81a0151477a5374f37dc553f19f0ed5132067210147c0ba98c439",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 23,
+      "path": "frame_0023_change_0026.218.png",
+      "sha256": "8a7c52d367f32473c9169712f0028a066d77d14ef254e7ff8bc9a217a0ca9f8f",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 24,
+      "path": "frame_0024_change_0027.359.png",
+      "sha256": "b7e82137ecee04a41318d128c1b0afccb3d18c42440db0300907618ae2bdbc17",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 25,
+      "path": "frame_0025_stable_0028.172.png",
+      "sha256": "f3f5feeaffe0fd4dcd03a84802dc6b6595eff37f643afd16135839f40ccedba9",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 26,
+      "path": "frame_0026_stable_0029.015.png",
+      "sha256": "15efa9f5e32ffe79890accf39dfd636bc3d66efb50cfd3c05b4f4a5dcae5e7f7",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 27,
+      "path": "frame_0027_change_0030.093.png",
+      "sha256": "286a94fdd000e5a544205a823e850d04961318a8af4405a4b9ed29519477232a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 28,
+      "path": "frame_0028_stable_0031.359.png",
+      "sha256": "bf1b041aa4269527f6b3f38133468ba2c3ccf40a9aea2837d11804ef03ddd1bd",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 29,
+      "path": "frame_0029_change_0032.125.png",
+      "sha256": "9fcbac178d63fce97d0e7c5d839e90ed9b4bda7e854c48dfd99a9b0266d654ee",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 30,
+      "path": "frame_0030_change_0033.234.png",
+      "sha256": "c54fdb2bea326b9a1e37afde3c9d951f46b94aca9b2acecc67489f80277bc724",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 31,
+      "path": "frame_0031_stable_0034.390.png",
+      "sha256": "92e45c4324f725d4028671eda706dd11b6aa0255eb04ee0c2e3e9f9094986a14",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 32,
+      "path": "frame_0032_change_0035.218.png",
+      "sha256": "ec7332c9ef68b3a3028949de6f8b0f66309d9d0be53c5140a3c17b87f786d16a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 33,
+      "path": "frame_0033_stable_0036.453.png",
+      "sha256": "1367872213dcd350fa8d6ad0dc24aef361034ea286a803e778088186bddec3c3",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 34,
+      "path": "frame_0034_stable_0037.203.png",
+      "sha256": "b36c8d00fe4ff5579cc9848905e604fd62ce6e39dee620e87bd08bbd8dde4b63",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 35,
+      "path": "frame_0035_change_0037.953.png",
+      "sha256": "bb288246b6d5034935b5828487054ebae957e00f6c09a7b963b4554dd9ee112a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 36,
+      "path": "frame_0036_stable_0039.453.png",
+      "sha256": "97ef61a914e790f2542973ec3a294dde22e527e4b8ced7098f753f3419e7296a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 37,
+      "path": "frame_0037_stable_0040.390.png",
+      "sha256": "3c847fad43f77008c9a8998a82e1e66f9f941193f548341e480b0c84a4137537",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 38,
+      "path": "frame_0038_stable_0041.172.png",
+      "sha256": "9eddc772414312e598378f7b19fb84c18a70b9a39d44335f503d21e6eed10c67",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 39,
+      "path": "frame_0039_change_0041.922.png",
+      "sha256": "e5472792786d186b3d666e642b06bf4b77210c43121f21af7de85cf767844c8e",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 40,
+      "path": "frame_0040_change_0043.297.png",
+      "sha256": "3af5e18193504549419dcf53e3e3c5559ff4ffcf46574fffe4b54403a375741e",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 41,
+      "path": "frame_0041_change_0044.047.png",
+      "sha256": "6487c3f00f73b6fb6ee27a05ca4738eff4315fa59f8f354a896d357246ef7263",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 42,
+      "path": "frame_0042_change_0045.359.png",
+      "sha256": "e2032be8e089df817a6a07cf6848197b1d721bc77dc6207203d42f2913a25fd3",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 43,
+      "path": "frame_0043_change_0046.672.png",
+      "sha256": "949ee1628cbd89749430494ee6767441967d8f8eb4291c0b987b0c79df773415",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 44,
+      "path": "frame_0044_change_0047.422.png",
+      "sha256": "48f440b0acfeef2cd0b927d35f534387bd8a3f2d1eecb759912a5c6bbd21827c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 45,
+      "path": "frame_0045_change_0048.172.png",
+      "sha256": "91befc0f590a9157dbd5c757cab378cd65fe8a9ad8fa7b5332fc977904164c21",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 46,
+      "path": "frame_0046_change_0048.922.png",
+      "sha256": "216c4d5e1eca361d2e1389c50e4a8f0d4c9fab32bb6392af8cc9a408a0a03c9d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 47,
+      "path": "frame_0047_change_0049.672.png",
+      "sha256": "d46ffe9a40fd0e23ab8c7166a8763d635b194ba21d6b3dae1c09d65e857adfa6",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 48,
+      "path": "frame_0048_change_0050.515.png",
+      "sha256": "ef927c758acdd05f5253f73f3d95569aa63b40ec198ab1afd8bab699517048b1",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 49,
+      "path": "frame_0049_change_0051.281.png",
+      "sha256": "012b68bd0da8f7aaddd5cc3239181014c6a74a473cc3c2382eea56132be2e68f",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 50,
+      "path": "frame_0050_change_0052.047.png",
+      "sha256": "de589f11c37bed170c952c9dd6354fbe991ae0d200666b761ee833015297081f",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 51,
+      "path": "frame_0051_change_0053.765.png",
+      "sha256": "c771e72e9d3b5be80935b0f2efae0ec8e2e489b714507fa5bb38ea7524c10c5e",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 52,
+      "path": "frame_0052_change_0054.547.png",
+      "sha256": "2bf013505ba16778b697c9c91ff69e69a5d0002cb08915f7d27b7fc038568fcb",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 53,
+      "path": "frame_0053_change_0055.297.png",
+      "sha256": "0949552007859f2a2187d8acc5e21817a35d512b9142d0cf1edcc174c29fe321",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 54,
+      "path": "frame_0054_change_0056.093.png",
+      "sha256": "b851b45e4380032d359497f23a9d3d86f7959a73db9079785748d091820abc4c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 55,
+      "path": "frame_0055_change_0057.984.png",
+      "sha256": "d8ef839e2faa382fc12bd8d94fcb0713ad6027d0848e4c78ab798b0a2f270811",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 56,
+      "path": "frame_0056_change_0058.828.png",
+      "sha256": "9e8394d99035e973c9a50863e9adfce2840a7325db3f99418891f6d94f883598",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 57,
+      "path": "frame_0057_change_0059.578.png",
+      "sha256": "a883a267b37da5448000504443b506dce86054efba4f20a25b1956d4591af654",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 58,
+      "path": "frame_0058_change_0060.328.png",
+      "sha256": "86537c80b40202ffefea6298831ec8d4115c3fca03477a8fb7ad160838c1ebe4",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 59,
+      "path": "frame_0059_change_0061.093.png",
+      "sha256": "803e28856e4aa8740bcbdf09ebe661be98452f9bbd3c17d5b42e0ab3f86fb892",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 60,
+      "path": "frame_0060_change_0062.547.png",
+      "sha256": "15243a9034647ac961795dcb3ed0da9ec691eb55f7d44f697485e412d1068728",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 61,
+      "path": "frame_0061_change_0063.297.png",
+      "sha256": "a30ba977b217e2635a3c8020d88edd62d4c4250601d56354d943f7742a01c982",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 62,
+      "path": "frame_0062_change_0064.047.png",
+      "sha256": "77dffc38dab5500c8e6079032a0225d75cfb3e0236e66788459286e02ce5e2b4",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 63,
+      "path": "frame_0063_change_0064.797.png",
+      "sha256": "b723cbbfd4402192123a7bff0141a9a8832ac412cf7399cfea430c7f0538a920",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 64,
+      "path": "frame_0064_change_0065.547.png",
+      "sha256": "684acec8f7f8bcf2aeba7e0c5af2c3b1c36ad40782ab8f5ed530469080779f0b",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 65,
+      "path": "frame_0065_change_0066.359.png",
+      "sha256": "3c07964c97344aa0c1537a03c7d9505a3154eea40cfd8de521c0fdb532afac75",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 66,
+      "path": "frame_0066_change_0067.297.png",
+      "sha256": "a97d925283dfe7ff180b3973c802861c0cdf225602242f8cfbe1ba0404c1cae9",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 67,
+      "path": "frame_0067_change_0068.047.png",
+      "sha256": "d07b7fb701c21a06e99a24ef8bffbb209cdff2c28dca8fe0d219c4e1866680dd",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 68,
+      "path": "frame_0068_change_0068.797.png",
+      "sha256": "1d59edc963e40bbfe9aacba49a989a4f7ae1f305f6debdc08631cac49062a47a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 69,
+      "path": "frame_0069_change_0069.547.png",
+      "sha256": "c31b8231c15a8fd22e7e7e242d5913a780ad845718e010ce80c85bfaa7bb42e1",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 70,
+      "path": "frame_0070_change_0070.297.png",
+      "sha256": "750b4ed7073747e745313921be183dc74e9c42e5bd43d5c118fa5b942d2e743e",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 71,
+      "path": "frame_0071_change_0071.047.png",
+      "sha256": "929dacbe1a1a944166cc3fa6914c565b21fc438cf30ded7c6bbcda584fb45253",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 72,
+      "path": "frame_0072_change_0071.797.png",
+      "sha256": "f086761b0c585f69e6e6f267a0751795f903575acb5e136a3996de6d31d7496d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 73,
+      "path": "frame_0073_stable_0073.578.png",
+      "sha256": "34282bd661b26691dfe0ef5e2cdf11b6f4df971edb80b6c01d2093993a03c60c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 74,
+      "path": "frame_0074_change_0075.359.png",
+      "sha256": "a70f0be34fd18ae8af515a7aa179d7efe556eeb8da7e4f25bb5b441236bb58bd",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 75,
+      "path": "frame_0075_change_0076.484.png",
+      "sha256": "a1f8acdaf8830ed6f7310660c9296dd6f41639d2535c521b10ceaf2d6c7d3a16",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 76,
+      "path": "frame_0076_stable_0078.765.png",
+      "sha256": "bcaa60bcbe2f0cd8dbb379f3e08913c79ad51bbb47f76247609659a1afa75c7f",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 77,
+      "path": "frame_0077_change_0079.547.png",
+      "sha256": "a76876732b56964db22d68318a6efbc135bf88b48f8046798a40ce0ed513c885",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 78,
+      "path": "frame_0078_stable_0080.547.png",
+      "sha256": "a345f7ba7a077f7897eff9216c052344e2fe07bb26c95e720108004a97d72552",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 79,
+      "path": "frame_0079_stable_0081.515.png",
+      "sha256": "5acd56a3aefb2ffa19bd6e6689152ed2137c8da31613fc25e831b5ac76c86ee0",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 80,
+      "path": "frame_0080_change_0082.547.png",
+      "sha256": "c8ad4952da6a5a9905ddf893c68f0d6133ff2295ed705a383ef07ccf56db7037",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 81,
+      "path": "frame_0081_change_0083.390.png",
+      "sha256": "b9ab86a947aec2f3a881dd205c2c7497df66f4a9300f8d89808e118382a02b53",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 82,
+      "path": "frame_0082_stable_0084.297.png",
+      "sha256": "016a1bc559b069321e2a50f2d0c44b3e2819d3f8a69aae343a7d80563148f386",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 83,
+      "path": "frame_0083_change_0086.234.png",
+      "sha256": "d3849721d06c2acc9a6ba4060b4a567af8eae3e45e8f8756c29ceae56d26376c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 84,
+      "path": "frame_0084_change_0087.609.png",
+      "sha256": "27af6a777a9c93b7e73f4d28b562dad0bc7e16afa5b6847fb846f44853850679",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 85,
+      "path": "frame_0085_change_0088.640.png",
+      "sha256": "27c8fc1709c316476074f12f3087b7b1abbf54f8ca3fddf7fed7ab72c3a26cb9",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 86,
+      "path": "frame_0086_stable_0089.984.png",
+      "sha256": "26adff55f529e130a0f95e7d882707ab6487138c714440ee34e58970de624ef2",
+      "phase_milestone": "deal-0002_role_lock"
+    },
+    {
+      "sequence": 87,
+      "path": "frame_0087_stable_0090.734.png",
+      "sha256": "90d6d4c74b61ef895ab883cb2e77f51c69160cce5ffbcf6dd7d3cc4804e5cf25",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 88,
+      "path": "frame_0088_change_0091.484.png",
+      "sha256": "35413a35cc3892efd6ffc4acccf55e4788ef94ed8be8cd92dc58a476db190b45",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 89,
+      "path": "frame_0089_change_0092.234.png",
+      "sha256": "7d521b5b4a37ca77a2905def4131a885f11b69426e4db91d2b1459d287f74236",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 90,
+      "path": "frame_0090_change_0094.203.png",
+      "sha256": "016fdb137a352d4c0576ec4ae53dab7f25b0eabd4a68c28a8cd705f01eee2ec5",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 91,
+      "path": "frame_0091_change_0096.640.png",
+      "sha256": "3de14d62708cb5f72d530ecb9e8d9c0e18418d56600a43deda57646a925a601b",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 92,
+      "path": "frame_0092_change_0097.640.png",
+      "sha256": "1c845b473ce39e2dea8e68d4a7841468fb84ce166b188cc1888ca320435bbcb8",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 93,
+      "path": "frame_0093_change_0099.359.png",
+      "sha256": "649a9c26763813380ae48f9af584f76cee82c7c12aec650126d458959a8e5f91",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 94,
+      "path": "frame_0094_change_0101.390.png",
+      "sha256": "d260bcfef4f363c3bef613aec33b932f465e0f27657b525c455d1eed3c58801c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 95,
+      "path": "frame_0095_change_0102.765.png",
+      "sha256": "cc9c247e5c147775200fc0c5af932556192a755a3b183fcace5a68f666592b08",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 96,
+      "path": "frame_0096_change_0103.672.png",
+      "sha256": "9cb1cc03618f9f22a4da054b97f9d5a5987d31709312ec16eb9b0b800764e81c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 97,
+      "path": "frame_0097_change_0105.703.png",
+      "sha256": "c9569fc7b96846f07a05a91644dd1b1cbd4de752590377e28fd2dd4e451b995c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 98,
+      "path": "frame_0098_change_0106.547.png",
+      "sha256": "90aee2d066d6910bcca539b85e37e5e89d1902331c5367c9a7b1d2448e47eaf5",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 99,
+      "path": "frame_0099_change_0107.672.png",
+      "sha256": "12b04eb8d17a9393b609ef969b312d8e568f6450a4be563af58ff90261918f35",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 100,
+      "path": "frame_0100_change_0108.422.png",
+      "sha256": "a79b8da49a8a54666feb7badba314b3729c068e83d30730e9e54042bd4ee8a19",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 101,
+      "path": "frame_0101_change_0109.203.png",
+      "sha256": "e1e541d55eb08367455a3797ca7ed00f4a9310d0a2e908c86a369364f8fb0491",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 102,
+      "path": "frame_0102_change_0110.328.png",
+      "sha256": "4c7f60ad04a22d41ca3465fc55d3a63b6ddf6b8c41b1c81737781b181db4ea17",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 103,
+      "path": "frame_0103_stable_0111.703.png",
+      "sha256": "37d593c3753e87a385aa27ef039cee43b91098e295cb4578656f551a2d4efe09",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 104,
+      "path": "frame_0104_change_0112.734.png",
+      "sha256": "3ed55f62979e9d812a6c9b88a6af141591e7f3b4faf0cf0717882f6209290e5d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 105,
+      "path": "frame_0105_change_0113.734.png",
+      "sha256": "52c851cde37f52336926e4b641fb3a7617fb13309ea97e43c4cf9fb90d4dc7bd",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 106,
+      "path": "frame_0106_change_0115.203.png",
+      "sha256": "10ed494bc6ed26de208fd43728df5398716820f93bcf7449596d6e33ef83b75c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 107,
+      "path": "frame_0107_stable_0116.390.png",
+      "sha256": "5ed2f7a0ff8c3caba5d4ba03614c3ae5fe6a77a2bbd8f960bb1e9456be938f0c",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 108,
+      "path": "frame_0108_change_0117.797.png",
+      "sha256": "e37157def2e96747f9ac7b9d24de06b58c281dde7596846254100b63f0973dd2",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 109,
+      "path": "frame_0109_change_0119.218.png",
+      "sha256": "9b4a3eac2c39dcfe5fa3b11b8a6496cf9a44f65af3c354e2cb72d5abb2b12b33",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 110,
+      "path": "frame_0110_change_0119.984.png",
+      "sha256": "5fc11d3d9066fa37aba6838dcb18f189d740cb8893e4eb205b5008b365f4e434",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 111,
+      "path": "frame_0111_change_0122.047.png",
+      "sha256": "9112ddcac306d5d4f26820bf187f418862fed46731375b0e50aadb8a75f2e250",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 112,
+      "path": "frame_0112_change_0123.172.png",
+      "sha256": "4a45edf18b7ab914d9027556aa4f6d9a56f23d97d4488e5506b20e737644746d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 113,
+      "path": "frame_0113_change_0124.953.png",
+      "sha256": "9b52c4d644c0162c5f5967baaa01a76de663832a3bbe389b8a1f5c833ac6f7e0",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 114,
+      "path": "frame_0114_change_0125.828.png",
+      "sha256": "4d3117a561dd809744da41c72e8775d7312397f291f6ba42757a698c0b390c26",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 115,
+      "path": "frame_0115_change_0127.203.png",
+      "sha256": "935f2184a75fe0a2de02f0615b417d34798cc621b042c6306460405be51abea5",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 116,
+      "path": "frame_0116_change_0129.015.png",
+      "sha256": "e526d0e5515023e43cbd234e70b4eae19827b6291fd41deb4659ff3077423750",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 117,
+      "path": "frame_0117_change_0129.828.png",
+      "sha256": "320139e5ba3825c8885db7eedfa19d26156114c29f3f85bdb62691ac76dd0b13",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 118,
+      "path": "frame_0118_stable_0130.797.png",
+      "sha256": "ffa1aa0a268f03939d0099ca46701dbbd373571daf6b31af597092b79898c77a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 119,
+      "path": "frame_0119_change_0132.703.png",
+      "sha256": "14a6e5f25eb064a274e78f33bbac6be313a1c970d72899fe619e82eb40bc08e9",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 120,
+      "path": "frame_0120_change_0133.859.png",
+      "sha256": "dc159bb456fe169427dd06dfdcc2a9f02840d65df26e0417590c1988f92de57a",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 121,
+      "path": "frame_0121_change_0135.250.png",
+      "sha256": "3d8ce3ea8ccc43ea6a7553da03ce1ca3dbe4dda7e2d4a134f9699e57feef8729",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 122,
+      "path": "frame_0122_stable_0136.218.png",
+      "sha256": "c7b7d6ae10715755b15d657d54ef1b797e005e02a2d28aa7dcf1228cc41bbdf3",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 123,
+      "path": "frame_0123_change_0137.015.png",
+      "sha256": "7da89f0ae017736b4eb8e1b6feab3a3b07fc0ea5fc5d32605334675f4cee38c3",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 124,
+      "path": "frame_0124_change_0139.265.png",
+      "sha256": "da3911497d5e78e2825ca21690f9ff474536bbae38a03e3491511fe9339a1efa",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 125,
+      "path": "frame_0125_change_0140.015.png",
+      "sha256": "0cb632896ddec47e03ff2be389977ae0c47051fbf8afaaf9c80f3d0fa2c57e4f",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 126,
+      "path": "frame_0126_change_0140.890.png",
+      "sha256": "85f8bf3219c12f7dfed8873ff4aa3bcbe640fcb34c07ac5ce85f053cd1ca1dc1",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 127,
+      "path": "frame_0127_stable_0141.640.png",
+      "sha256": "2329e85df996a014b019f4b26c964cf48391a3f5eef1ee309327d3f6d456b0fe",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 128,
+      "path": "frame_0128_change_0142.422.png",
+      "sha256": "385dd889572b8131b7ae60127f6e21346a9f7660aba8cfee73dcc86cf27a2bdc",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 129,
+      "path": "frame_0129_stable_0143.765.png",
+      "sha256": "63264ce4b79678fa51f415231ce83004eeb1ea20a868e191002fd82d3730fe8d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 130,
+      "path": "frame_0130_change_0144.922.png",
+      "sha256": "4c20e99cbc7b48535d8c1a243f017538cbf24c8fbb22f4fd6f65ee7d1d488ad4",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 131,
+      "path": "frame_0131_change_0146.359.png",
+      "sha256": "6560f6e82b648b5561c1cab5e85479b49431a63e5054e138ef316bd822182ff2",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 132,
+      "path": "frame_0132_change_0147.390.png",
+      "sha256": "fac33de75db38370eabb9384e6c99a00abaec7544c1e9c6ff64babc37f9f0d0d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 133,
+      "path": "frame_0133_change_0148.140.png",
+      "sha256": "7fcf763fbfcc7512f07c5a2fcff4498c3217aa50c6cd998ebcf9debb3ba6f087",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 134,
+      "path": "frame_0134_change_0148.890.png",
+      "sha256": "71a790b7bd4eeb4f036afcda78e853e5d02ba666369299889fd65516b046980d",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 135,
+      "path": "frame_0135_change_0149.640.png",
+      "sha256": "8312f7db5b1b439b2ce36e6892bbbf57c595cf24fee6718ac45c0b6416c442cf",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 136,
+      "path": "frame_0136_change_0150.453.png",
+      "sha256": "673a9f3d685ca1907ae42d7e3d4275ad0c8bb50f59aec1a63933499a35ace593",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 137,
+      "path": "frame_0137_stable_0151.515.png",
+      "sha256": "64b984e45e4c074bf43900be79b42567662f4ea05df6714b85b19cc034671848",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 138,
+      "path": "frame_0138_change_0152.265.png",
+      "sha256": "62c7b3a416284a273517eca06ea9c8d001ce5826209014afe9eca3084f49866e",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 139,
+      "path": "frame_0139_change_0153.015.png",
+      "sha256": "15ae191fb97d7951058a22f1acb94fbad5932a82be8874b1490179ee3bef031f",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 140,
+      "path": "frame_0140_change_0153.765.png",
+      "sha256": "2f69b0c0fac0adfe5b0196871082e7ba30cdacb7d9d8ed2d403cf62288cad5c0",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 141,
+      "path": "frame_0141_change_0154.515.png",
+      "sha256": "a08b0deb92503c545d96a2f11533c1282498c2f0f78dd1d0fee755d217f16ae3",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 142,
+      "path": "frame_0142_change_0155.265.png",
+      "sha256": "70b660226f4bb642c199f3009146ee146866c3494c6dd8c8e7fa8f626595c192",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 143,
+      "path": "frame_0143_change_0156.640.png",
+      "sha256": "4742554338b8dec325d698e7b5e13ddabeeba3c5d0f3350fb9f9e39249397dee",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 144,
+      "path": "frame_0144_change_0157.422.png",
+      "sha256": "5d6042de9c62b9d223d32ce68593c6d38a9e0cc244907aff118d01e3006f19d0",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 145,
+      "path": "frame_0145_change_0158.172.png",
+      "sha256": "ff191276eca725e29f6c071dc8f23612b42b2da694c78759a9e5daa581784a10",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 146,
+      "path": "frame_0146_change_0158.922.png",
+      "sha256": "46cc74c9312aeb9afc06bbe225d8d2c48daf093a8f2a04e385d6f3e464408252",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 147,
+      "path": "frame_0147_change_0159.672.png",
+      "sha256": "e6ea23b711b1c9a064b9f92b1677d2a64529a1e980d71d79d0268a6f86ff6e3b",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 148,
+      "path": "frame_0148_change_0160.422.png",
+      "sha256": "fafbaac55dd498addb417c77543afb0b8024c956b37efbd5fef7d342193c5d56",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 149,
+      "path": "frame_0149_stable_0161.218.png",
+      "sha256": "c9b32284ab5ef01ceaedb46d3ea573c2579b9de7c84b715c6a53e1eee18572f6",
+      "phase_milestone": "in_deal"
+    },
+    {
+      "sequence": 150,
+      "path": "frame_0150_stable_0162.359.png",
+      "sha256": "96c16c0ef0a4b7cb5725e4cbbee75f937b60368ed6b7358eda9538032e67c3a6",
+      "phase_milestone": "in_deal"
+    }
+  ],
+  "deals": [
+    {
+      "expected_deal_id": "deal-0001",
+      "local_role": "landlord_down",
+      "landlord_region": "right",
+      "bottom_cards": [
+        "J",
+        "5",
+        "3"
+      ],
+      "role_lock_sequence": 13,
+      "end_reason": "replaced_by_new_deal",
+      "end_sequence": 86
+    },
+    {
+      "expected_deal_id": "deal-0002",
+      "local_role": "landlord_up",
+      "landlord_region": "left",
+      "bottom_cards": [
+        "D",
+        "2",
+        "10"
+      ],
+      "role_lock_sequence": 86,
+      "end_reason": "active_at_capture_end",
+      "end_sequence": 150
+    }
+  ]
+}

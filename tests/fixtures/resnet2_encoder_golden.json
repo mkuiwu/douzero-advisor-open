@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/EdwardPooh/douzero-resnet-2.0",
+  "upstream_commit": "85afd773abd01c411f543d6ade5b99a4fde327d2",
+  "upstream_source": "Douzero_Resnet/douzero/env/env_res.py",
+  "upstream_source_sha256": "86ec7b7259ff728acf42ee1f61c48840ea35e8ecf946334fe4ae6bea4986ea5a",
+  "fixture": "_reference_infoset in tests/test_resnet2_observation.py",
+  "arrays": {
+    "landlord": {
+      "x_batch": {"shape": [4, 15], "dtype": "float32", "sha256": "3c6abcb8d934a771f58d94d2619f786269f0f55b9f40cf4368fb75950540c434"},
+      "z_batch": {"shape": [4, 40, 54], "dtype": "float32", "sha256": "7af50ae039e32229ae1f3339d72cde500515a9f0e8275145438b9be8804d5a8c"},
+      "x_no_action": {"shape": [15], "dtype": "int8", "sha256": "681fa366132fcbc725fcc5d64b46e5680efc05b65c00d521fe62177cef6ec413"},
+      "z": {"shape": [39, 54], "dtype": "int8", "sha256": "d346c6604a32526ba8440a3f16a2bcdae6b418ec5934854b92de99a400a3a19e"}
+    },
+    "landlord_down": {
+      "x_batch": {"shape": [4, 15], "dtype": "float32", "sha256": "b282944a931af72fe59d25a27c4a325ad4424c1461f1d3e37b2df40f6992436f"},
+      "z_batch": {"shape": [4, 40, 54], "dtype": "float32", "sha256": "7af50ae039e32229ae1f3339d72cde500515a9f0e8275145438b9be8804d5a8c"},
+      "x_no_action": {"shape": [15], "dtype": "int8", "sha256": "2ca3ff0a63915a6cab3dd7e4c69063aa6d28efbcfdf5b0ab661cc0d2b5ef70d6"},
+      "z": {"shape": [39, 54], "dtype": "int8", "sha256": "d346c6604a32526ba8440a3f16a2bcdae6b418ec5934854b92de99a400a3a19e"}
+    },
+    "landlord_up": {
+      "x_batch": {"shape": [4, 15], "dtype": "float32", "sha256": "b282944a931af72fe59d25a27c4a325ad4424c1461f1d3e37b2df40f6992436f"},
+      "z_batch": {"shape": [4, 40, 54], "dtype": "float32", "sha256": "7af50ae039e32229ae1f3339d72cde500515a9f0e8275145438b9be8804d5a8c"},
+      "x_no_action": {"shape": [15], "dtype": "int8", "sha256": "2ca3ff0a63915a6cab3dd7e4c69063aa6d28efbcfdf5b0ab661cc0d2b5ef70d6"},
+      "z": {"shape": [39, 54], "dtype": "int8", "sha256": "d346c6604a32526ba8440a3f16a2bcdae6b418ec5934854b92de99a400a3a19e"}
+    }
+  }
+}

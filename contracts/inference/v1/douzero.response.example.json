@@ -1,0 +1,18 @@
+{
+  "contractVersion": "inference.v1",
+  "requestId": "request-20260825-0002",
+  "dealId": "deal-20260825-0001",
+  "modelId": "original",
+  "status": "OK",
+  "action": [20, 30],
+  "actionValue": 0.82,
+  "actionMargin": 0.65,
+  "actionScores": [
+    {"action": [20, 30], "value": 0.82},
+    {"action": [], "value": 0.17}
+  ],
+  "modelVersion": "pinned-original-version",
+  "latencyMs": 18,
+  "errorCode": "NONE",
+  "errorMessage": ""
+}

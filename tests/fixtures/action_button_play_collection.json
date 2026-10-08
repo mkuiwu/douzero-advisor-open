@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "capture_size": [1455, 819],
+  "roots": {
+    "turn_ready": "config/live-calibration",
+    "deal_recordings": "config/live-calibration/deal-recordings"
+  },
+  "scope": {
+    "positive": "play-stage local-turn controls only",
+    "excluded_by_gate": ["bidding", "doubling", "settlement", "other-seat"],
+    "layouts": ["cannot_beat_only", "play_hint", "play_pass_hint"]
+  },
+  "samples": [
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001363_00085.484_timeline.jpg", "expected_layout": "cannot_beat_only"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001367_00085.797_timeline.jpg", "expected_layout": "cannot_beat_only"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001371_00086.109_timeline.jpg", "expected_layout": "cannot_beat_only"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001646_00054.297_anchor_timeline.jpg", "expected_layout": "play_pass_hint"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001653_00054.516_anchor_timeline.jpg", "expected_layout": "play_pass_hint"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-160826-dc8ca1ff/frames/frame_001661_00054.782_anchor_timeline.jpg", "expected_layout": "play_pass_hint"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001950_00097.453_anchor_timeline.jpg", "expected_layout": "play_pass_hint"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001956_00097.750_anchor_timeline.jpg", "expected_layout": "play_pass_hint"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_001962_00098.063_anchor_timeline.jpg", "expected_layout": "play_pass_hint"},
+    {"root": "deal_recordings", "path": "run-1787163276660790600/frame_00262_seq_000305.jpg", "expected_layout": "play_hint", "visual_reviewed": true},
+    {"root": "deal_recordings", "path": "run-1787163276660790600/frame_00308_seq_000384.jpg", "expected_layout": "play_hint", "visual_reviewed": true},
+    {"root": "deal_recordings", "path": "run-1787163276660790600/frame_00625_seq_000954.jpg", "expected_layout": "cannot_beat_only", "visual_reviewed": true},
+    {"root": "deal_recordings", "path": "run-1787163276660790600/frame_00207_seq_000208.jpg", "expected_layout": "play_pass_hint", "visual_reviewed": true},
+    {"root": "deal_recordings", "path": "run-1787163276660790600/frame_01398_seq_002353.jpg", "expected_layout": "play_pass_hint", "visual_reviewed": true},
+    {"root": "deal_recordings", "path": "run-1787163276660790600/frame_01480_seq_002492.jpg", "expected_layout": "play_pass_hint", "visual_reviewed": true},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-171111-e5a64a6c/frames/frame_000911_00045.500_idle_timeline.jpg", "expected_layout": "unknown", "negative": "blank"},
+    {"root": "turn_ready", "path": "wgc/captures/game-20260815-223120/frame_0006_stable_after_change_0025.052.png", "expected_layout": "unknown", "negative": "doubling_result"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001094_00063.984_timeline.jpg", "expected_layout": "unknown", "negative": "overlay"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-163306-c362f7e1/frames/frame_001488_00049.078_idle_timeline.jpg", "expected_layout": "unknown", "negative": "overlay"},
+    {"root": "turn_ready", "path": "wgc/captures/game-20260815-233322/frame_0040_stable_after_change_0128.854.png", "expected_layout": "unknown", "negative": "pass_result"},
+    {"root": "turn_ready", "path": "wgc/captures/game-20260815-223120/frame_0021_stable_after_change_0068.864.png", "expected_layout": "unknown", "negative": "play_result"},
+    {"root": "turn_ready", "path": "checkpoint-smoke/sessions/checkpoint-20260816-152708-84b649d9/frames/frame_001593_00099.203_timeline.jpg", "expected_layout": "unknown", "negative": "settlement"}
+  ]
+}

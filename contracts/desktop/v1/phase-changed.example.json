@@ -1,0 +1,9 @@
+{
+  "protocol": "desktop.v1",
+  "type": "PHASE_CHANGED",
+  "sequence": 1,
+  "emittedAt": "2026-08-28T08:00:01Z",
+  "serverInstanceId": "server-example-1",
+  "phase": "PREPLAY",
+  "dealId": "deal-example-1"
+}

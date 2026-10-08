@@ -1,0 +1,1 @@
+{"contractVersion":"recognition.v1","messageType":"SUBMIT","taskType":"TURN_END","requestId":"turn-end-10","deadlineMs":30000,"dealId":"deal-42","generation":7,"localSeat":"landlord_up","baselineHand":["D","2","A","K","Q","J","10","9","8","7","6","5","4","3","3"],"baselineActionsBySeat":{"landlord_down":[],"landlord":["7"]}}

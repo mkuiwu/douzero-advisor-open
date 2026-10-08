@@ -1,0 +1,66 @@
+spring:
+  config:
+    activate:
+      on-profile: live-runtime
+  main:
+    # 正式只读运行保持 JVM 存活，直到 IDEA Stop 或 Ctrl+C。
+    keep-alive: true
+
+# 默认只读运行：Java 编排器提交业务识别任务，Python CV 负责截图和识别；
+# 桌面端可以单独授权局前正向按钮点击，正式出牌仍保持渐进式自动选牌。
+douzero:
+  recognition:
+    enabled: true
+    command:
+      - cmd.exe
+      - /c
+      - Run-DouZeroRecognitionService.cmd
+    calibration-manifest: tests/fixtures/live_capture_manifest.json
+    startup-timeout-ms: 5000
+  model:
+    enabled: true
+    command:
+      - cmd.exe
+      - /c
+      - Run-DouZeroModelService.cmd
+    name: resnet2
+    # CPU checkpoint 冷启动需要更长 READY 时间；正式推理仍受 Java 业务截止时间约束。
+    timeout-ms: 10000
+  preplay-model:
+    # 用户显式开启局前建议并提供本地 FullAuto 模型目录时才启动。
+    enabled: false
+    command:
+      - .venv\Scripts\python.exe
+      - -m
+      - douzero_advisor.preplay.model_worker
+    # 用户通过环境变量提供本地 FullAuto 目录；开启局前建议但缺失时会明确报错。
+    legacy-root: ${DOUZERO_PREPLAY_LEGACY_ROOT:}
+    model-id: fullauto-v1
+    timeout-ms: 30000
+  execution:
+    # 固定自动不出需要执行 Worker；普通出牌 auto-submit 仍保持 false。
+    enabled: true
+    command:
+      - .venv\Scripts\python.exe
+      - -m
+      - douzero_advisor.execution_service
+      - --calibration-manifest
+      - tests/fixtures/live_capture_manifest.json
+    calibration-manifest: tests/fixtures/live_capture_manifest.json
+    startup-timeout-ms: 5000
+    execute-ms: 10000
+    auto-submit: false
+    # 普通出牌和局前按钮仍由桌面端本次启动参数显式打开；PASS 使用 application.yml 固定配置。
+    card-play-enabled: false
+    preplay-buttons-enabled: false
+  orchestration:
+    enabled: true
+    new-game-ms: 30000
+    preplay-recognition-ms: 15000
+    deal-ms: 45000
+    settlement-ms: 600000
+    # 首次回合从提交、后续回合从本方按钮重新出现起计；Python CV 负责最终成功或失败。
+    local-turn-ms: 30000
+    turn-end-ms: 30000
+    preplay-decision-ms: 8000
+    play-decision-ms: 1500

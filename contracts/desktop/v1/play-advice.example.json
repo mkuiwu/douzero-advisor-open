@@ -1,0 +1,31 @@
+{
+  "protocol": "desktop.v1",
+  "type": "PLAY_ADVICE",
+  "sequence": 3,
+  "emittedAt": "2026-08-28T08:00:03Z",
+  "serverInstanceId": "server-example-1",
+  "dealId": "deal-example-1",
+  "phase": "PLAYING",
+  "localSeat": "LANDLORD_DOWN",
+  "hand": ["3", "4", "5", "6", "7"],
+  "bottomCards": ["A", "2", "D"],
+  "currentSeat": "LANDLORD_DOWN",
+  "lastMove": ["9"],
+  "history": [
+    {
+      "seat": "LANDLORD",
+      "action": { "pass": false, "cards": ["9"] }
+    }
+  ],
+  "resultKind": "RECOMMENDATION",
+  "modelId": "resnet2",
+  "recommendedAction": { "pass": true, "cards": [] },
+  "actionValue": 0.31,
+  "actionMargin": 0.08,
+  "actionScores": [
+    { "action": { "pass": true, "cards": [] }, "value": 0.31 },
+    { "action": { "pass": false, "cards": ["3"] }, "value": 0.23 }
+  ],
+  "failure": "",
+  "detail": ""
+}

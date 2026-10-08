@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/EdwardPooh/douzero-resnet-2.0",
+  "upstream_commit": "85afd773abd01c411f543d6ade5b99a4fde327d2",
+  "license": "GPL-3.0-only",
+  "device_default": "cpu",
+  "models": {
+    "landlord": {
+      "path": "landlord.ckpt",
+      "sha256": "df11501facc740b10bb5f8ea32e7476b4aa32af9eff4371ffb6c27aef85009ef",
+      "file_size": 14199345,
+      "model_type": "resnet2_card_play"
+    },
+    "landlord_down": {
+      "path": "landlord_down.ckpt",
+      "sha256": "ab356cd313e871f2cc0ad33018e5aa3b2a8b5524e22c5731a6465152c7ff20b7",
+      "file_size": 14200817,
+      "model_type": "resnet2_card_play"
+    },
+    "landlord_up": {
+      "path": "landlord_up.ckpt",
+      "sha256": "a4b502fa1a7a04b2cce34c404e7f6f5c5c6b54e7865c1129b136e1e5aa28e72c",
+      "file_size": 14200817,
+      "model_type": "resnet2_card_play"
+    }
+  }
+}

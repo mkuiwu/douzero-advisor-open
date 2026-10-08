@@ -1,0 +1,1 @@
+{"contractVersion":"recognition.v1","messageType":"RESULT","taskType":"DEAL","requestId":"deal-task-42","status":"OK","dealId":"deal-42","generation":7,"localSeat":"landlord_down","hand":["D","X","2","2","A","K","Q","J","10","9","8","7","6","5","4","3","3"],"bottomCards":["2","A","3"],"landlordOpeningPlay":["7"],"observedAt":"2026-08-26T08:00:08.000Z"}

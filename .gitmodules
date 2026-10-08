@@ -1,0 +1,3 @@
+[submodule "vendor/DouZero"]
+	path = vendor/DouZero
+	url = https://github.com/kwai/DouZero.git

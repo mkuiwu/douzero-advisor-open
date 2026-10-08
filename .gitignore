@@ -1,0 +1,64 @@
+# Git worktree 和本地环境
+.worktrees/
+.venv/
+venv/
+env/
+
+# macOS、IDE 和 Java 工程生成文件
+.DS_Store
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+*.class
+hs_err_pid*
+
+# Electron / Vue 本地依赖和构建产物
+node_modules/
+desktop-ui/out/
+desktop-ui/release/
+desktop-ui/coverage/
+
+# Python 缓存、测试和类型检查产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# 识别失败现场（超时或读不出时落盘的连续帧）
+logs/recognition-failures/
+
+# Maven 和 Java 运行产物
+target/
+**/target/
+
+# 本地模型大文件；模型清单和已纳入版本控制的文件不受影响
+models/*.ckpt
+
+# 本地运行日志、截图和进程文件
+logs/
+screenshots/
+*.log
+*.pid
+
+# 用户自行安装的真实标定与回归截图，不进入公开 Git 历史
+/config/live-calibration/**/*.jpg
+/config/live-calibration/**/*.jpeg
+/config/live-calibration/**/*.png
+/tests/fixtures/core_cases/
+/private-assets/
+
+# 本地配置和依赖解析结果，不提交可能包含机器或凭据的信息
+.env
+.env.*
+!.env.example
+uv.lock

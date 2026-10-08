@@ -1,0 +1,1 @@
+{"contractVersion":"recognition.v1","messageType":"RESULT","taskType":"PREPLAY_PROMPT","requestId":"preplay-3","status":"OK","dealId":"deal-42","generation":7,"promptType":"double","hand":["D","X","2","2","A","K","Q","J","10","9","8","7","6","5","4","3","3"],"bottomCards":[],"availableActions":["super_double","double","no_double"],"observedAt":"2026-08-26T08:00:03.000Z"}

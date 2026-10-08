@@ -1,0 +1,9 @@
+{
+  "protocol": "desktop.v1",
+  "type": "GAME_FINISHED",
+  "sequence": 4,
+  "emittedAt": "2026-08-28T08:00:04Z",
+  "serverInstanceId": "server-example-1",
+  "dealId": "deal-example-1",
+  "reason": "SETTLEMENT_DETECTED"
+}

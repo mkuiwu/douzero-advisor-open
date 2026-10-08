@@ -1,0 +1,1 @@
+{"contractVersion":"recognition.v1","messageType":"RESULT","taskType":"LOCAL_TURN","requestId":"turn-9","status":"OK","dealId":"deal-42","generation":7,"currentHand":["D","2","A","K","Q","J","10","9","8","7","6","5","4","3","3"],"actionsBySeat":{"landlord_down":[],"landlord":["7"]},"observedAt":"2026-08-26T08:00:12.000Z"}

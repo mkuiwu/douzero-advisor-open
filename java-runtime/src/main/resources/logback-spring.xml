@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 每次启动生成独立标识，启动日志不会覆盖上一次启动。 -->
+    <timestamp key="STARTUP_ID" datePattern="yyyyMMdd-HHmmss.SSS"/>
+
+    <!-- 从 application.yml 读取日志目录、文件名、级别和滚动策略。 -->
+    <springProperty scope="context" name="LOG_DIRECTORY"
+                    source="douzero.logging.directory" defaultValue="./logs"/>
+    <springProperty scope="context" name="ALL_FILE_NAME"
+                    source="douzero.logging.file-name" defaultValue="all.log"/>
+    <springProperty scope="context" name="ERROR_FILE_NAME"
+                    source="douzero.logging.error-file-name" defaultValue="error.log"/>
+    <springProperty scope="context" name="WARN_FILE_NAME"
+                    source="douzero.logging.warn-file-name" defaultValue="warn.log"/>
+    <springProperty scope="context" name="STARTUP_FILE_PREFIX"
+                    source="douzero.logging.startup-file-prefix" defaultValue="startup"/>
+    <springProperty scope="context" name="APP_LOG_LEVEL"
+                    source="douzero.logging.level" defaultValue="INFO"/>
+    <springProperty scope="context" name="ROOT_LOG_LEVEL"
+                    source="douzero.logging.root-level" defaultValue="INFO"/>
+    <springProperty scope="context" name="LOG_MAX_HISTORY"
+                    source="douzero.logging.max-history" defaultValue="14"/>
+    <springProperty scope="context" name="LOG_MAX_FILE_SIZE"
+                    source="douzero.logging.max-file-size" defaultValue="50MB"/>
+
+    <property name="LOG_PATTERN"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{48} - %msg%n"/>
+
+    <!-- 控制台日志用于 IDEA 和本地运行观察。 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 公共文件保存所有达到根级别的日志。 -->
+    <appender name="ALL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIRECTORY}/${ALL_FILE_NAME}</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIRECTORY}/${ALL_FILE_NAME}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <maxFileSize>${LOG_MAX_FILE_SIZE}</maxFileSize>
+            <maxHistory>${LOG_MAX_HISTORY}</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 本次启动的完整日志单独保存，便于按一次运行复盘。 -->
+    <appender name="STARTUP_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIRECTORY}/${STARTUP_FILE_PREFIX}-${STARTUP_ID}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIRECTORY}/archive/${STARTUP_FILE_PREFIX}-${STARTUP_ID}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <maxFileSize>${LOG_MAX_FILE_SIZE}</maxFileSize>
+            <maxHistory>${LOG_MAX_HISTORY}</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 只接收 ERROR，避免与 WARN 文件混淆。 -->
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIRECTORY}/${ERROR_FILE_NAME}</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIRECTORY}/${ERROR_FILE_NAME}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <maxFileSize>${LOG_MAX_FILE_SIZE}</maxFileSize>
+            <maxHistory>${LOG_MAX_HISTORY}</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 只接收 WARN，ERROR 由独立文件负责。 -->
+    <appender name="WARN_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIRECTORY}/${WARN_FILE_NAME}</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIRECTORY}/${WARN_FILE_NAME}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <maxFileSize>${LOG_MAX_FILE_SIZE}</maxFileSize>
+            <maxHistory>${LOG_MAX_HISTORY}</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 项目代码使用配置的级别，第三方库遵循根级别。 -->
+    <logger name="com.mkuiwu.douzero" level="${APP_LOG_LEVEL}"/>
+    <root level="${ROOT_LOG_LEVEL}">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ALL_FILE"/>
+        <appender-ref ref="STARTUP_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
+        <appender-ref ref="WARN_FILE"/>
+    </root>
+</configuration>

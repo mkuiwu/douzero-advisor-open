@@ -1,0 +1,18 @@
+{
+  "contractVersion": "inference.v1",
+  "requestId": "request-20260825-0001",
+  "dealId": "deal-20260825-0001",
+  "modelId": "resnet2",
+  "status": "OK",
+  "action": [20, 30],
+  "actionValue": 0.76,
+  "actionMargin": 0.55,
+  "actionScores": [
+    {"action": [20, 30], "value": 0.76},
+    {"action": [], "value": 0.21}
+  ],
+  "modelVersion": "pinned-resnet2-version",
+  "latencyMs": 18,
+  "errorCode": "NONE",
+  "errorMessage": ""
+}

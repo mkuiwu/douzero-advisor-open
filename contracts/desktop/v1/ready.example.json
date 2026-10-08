@@ -1,0 +1,8 @@
+{
+  "protocol": "desktop.v1",
+  "type": "READY",
+  "sequence": 0,
+  "emittedAt": "2026-08-28T08:00:00Z",
+  "serverInstanceId": "server-example-1",
+  "orchestrationEnabled": true
+}

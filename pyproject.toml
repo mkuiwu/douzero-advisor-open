@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools==75.8.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "douzero-advisor"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy==1.26.4",
+  "opencv-python==4.10.0.84",
+  "Pillow==10.4.0",
+  "pywin32==306; platform_system == 'Windows'",
+  "windows-capture==2.0.1; platform_system == 'Windows'",
+  "rlcard==1.2.0",
+]
+
+[project.scripts]
+douzero-recognition-service = "douzero_advisor.recognition_service.model_worker:main"
+douzero-model-service = "douzero_advisor.model_service.resnet2_worker:main"
+douzero-preplay-model-service = "douzero_advisor.preplay.model_worker:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+  "core: small immutable OCR cases requiring separately installed real screenshots",
+  "bottom: bottom-card OCR tests",
+  "hand: local-hand OCR tests",
+  "table: played-card and action-result OCR tests",
+  "private_assets: real-capture regressions requiring a separately installed local image pack",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100

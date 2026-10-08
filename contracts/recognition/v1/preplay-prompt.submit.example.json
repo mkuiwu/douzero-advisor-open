@@ -1,0 +1,1 @@
+{"contractVersion":"recognition.v1","messageType":"SUBMIT","taskType":"PREPLAY_PROMPT","requestId":"preplay-3","deadlineMs":15000,"dealId":"deal-42","generation":7,"entryMode":"require_change_then_new"}

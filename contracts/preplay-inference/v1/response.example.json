@@ -1,0 +1,1 @@
+{"contractVersion":"preplay-inference.v1","requestId":"preplay-model-3","dealId":"deal-42","generation":7,"modelId":"legacy-fullauto-preplay","modelVersion":"fullauto-6d20491da216c989d23cf2883498758fb78e9f8d","latencyMs":12,"status":"OK","action":"double","score":1.1,"threshold":1.0,"decisionReason":"score_vs_double_threshold"}

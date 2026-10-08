@@ -1,0 +1,149 @@
+{
+  "format": "opening-recovery-audited-v1",
+  "provenance": {
+    "ledger_sha256": "29840c32b006459d3dc195c73686cea1801bc61d23dcad042504500432747691",
+    "joined_frames": 2953,
+    "ledger_rows": 2953,
+    "oracle_assisted": true,
+    "disposition": "MODIFY / partial / oracle-assisted"
+  },
+  "cases": [
+    {
+      "name": "right_pair_3",
+      "input_kind": "locked_audited",
+      "source_session": "checkpoint-20260816-152708-84b649d9",
+      "baseline_sequence": 938,
+      "post_sequence": 1093,
+      "generation": 1,
+      "audited_physical_marker": "landlord_right",
+      "raw_role_diagnostic": "landlord_up",
+      "baseline": {
+        "evidence_hash": "bde555153ee7e2190111108662b0c713e9e9f94c4c852c8136671bf2370d112c",
+        "hand": ["2", "Q", "Q", "Q", "J", "J", "10", "10", "8", "8", "6", "6", "5", "5", "5", "4", "3"],
+        "tracker_counts": [1, 1, 3, 4, 4, 1, 2, 2, 4, 2, 4, 2, 1, 3, 3],
+        "action_results": {"left_play": "CLEAR", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {}
+      },
+      "post": {
+        "evidence_hash": "cacc2b539dc99d9209a884ea53f095b55350528f13ac2bff5af8d5405e774010",
+        "hand": ["2", "Q", "Q", "Q", "J", "J", "10", "10", "8", "8", "6", "6", "5", "5", "5", "4", "3"],
+        "tracker_counts": [1, 1, 3, 4, 4, 1, 2, 2, 4, 2, 4, 2, 1, 3, 1],
+        "action_results": {"left_play": "CLEAR", "right_play": "PLAY", "my_play": "CLEAR"},
+        "visible_counts": {"right_play": 2}
+      },
+      "expected": {"outcome": "accept", "local_role": "landlord_up", "event_cards": [3, 3], "next_player": "landlord_down"}
+    },
+    {
+      "name": "left_single_6",
+      "input_kind": "locked_audited",
+      "source_session": "checkpoint-20260816-152708-84b649d9",
+      "baseline_sequence": 2018,
+      "post_sequence": 2117,
+      "generation": 1,
+      "audited_physical_marker": "landlord_left",
+      "raw_role_diagnostic": "landlord_up",
+      "baseline": {
+        "evidence_hash": "ad5fcb3226bb3f60a3bcb6ac394ce5810c368b82f0d509da278393b9bf37ff2d",
+        "hand": ["X", "2", "A", "A", "K", "K", "Q", "Q", "J", "J", "10", "10", "10", "8", "7", "6", "4"],
+        "tracker_counts": [1, 0, 3, 2, 2, 2, 2, 1, 4, 3, 3, 3, 4, 3, 4],
+        "action_results": {"left_play": "CLEAR", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {}
+      },
+      "post": {
+        "evidence_hash": "b7921f76eef3144ae34cfb70eb471bb150677ac55c9b27a68e0aae014f2542a8",
+        "hand": ["X", "2", "A", "A", "K", "K", "Q", "Q", "J", "J", "10", "10", "10", "8", "7", "6", "4"],
+        "tracker_counts": [1, 0, 3, 2, 2, 2, 2, 1, 4, 3, 3, 2, 4, 3, 4],
+        "action_results": {"left_play": "PLAY", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {"left_play": 1}
+      },
+      "expected": {"outcome": "accept", "local_role": "landlord_down", "event_cards": [6], "next_player": "landlord_down"}
+    },
+    {
+      "name": "right_pair_4",
+      "input_kind": "locked_audited",
+      "source_session": "checkpoint-20260816-154048-804a0eb8",
+      "baseline_sequence": 399,
+      "post_sequence": 420,
+      "generation": 1,
+      "audited_physical_marker": "landlord_right",
+      "raw_role_diagnostic": "landlord_down",
+      "baseline": {
+        "evidence_hash": "e9a7e9878b15650fb887f409db5cebcaefe166dca7795649fe7d975d8f22073b",
+        "hand": ["2", "K", "Q", "J", "J", "10", "8", "8", "8", "7", "7", "6", "5", "5", "4", "3", "3"],
+        "tracker_counts": [1, 1, 3, 4, 3, 3, 2, 3, 4, 1, 2, 3, 2, 3, 2],
+        "action_results": {"left_play": "CLEAR", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {}
+      },
+      "post": {
+        "evidence_hash": "ce3eb319eb0c8ae524e1ac2e229e94ed3a08cf6e802ab307303c15f7fe2c03c6",
+        "hand": ["2", "K", "Q", "J", "J", "10", "8", "8", "8", "7", "7", "6", "5", "5", "4", "3", "3"],
+        "tracker_counts": [1, 1, 3, 4, 3, 3, 2, 3, 4, 1, 2, 3, 2, 1, 2],
+        "action_results": {"left_play": "CLEAR", "right_play": "PLAY", "my_play": "CLEAR"},
+        "visible_counts": {"right_play": 2}
+      },
+      "expected": {"outcome": "accept", "local_role": "landlord_up", "event_cards": [4, 4], "next_player": "landlord_down"}
+    },
+    {
+      "name": "self_out_of_order",
+      "input_kind": "locked_audited",
+      "source_session": "checkpoint-20260816-163306-c362f7e1",
+      "baseline_sequence": 675,
+      "post_sequence": 1549,
+      "generation": 1,
+      "audited_physical_marker": "landlord_self",
+      "raw_role_diagnostic": "landlord",
+      "baseline": {
+        "evidence_hash": "e2ce245229a9cd24722edae6ca156979266874c17e54f051802a0186829c9e93",
+        "hand": ["X", "2", "2", "A", "A", "K", "Q", "J", "J", "10", "10", "9", "8", "8", "7", "4", "4", "3", "3", "3"],
+        "tracker_counts": [1, 0, 2, 2, 3, 3, 2, 2, 3, 2, 3, 4, 4, 2, 1],
+        "action_results": {"left_play": "CLEAR", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {}
+      },
+      "post": {
+        "evidence_hash": "40c973083b69aa0e0396c8d0afc6c7251e6a1ee607a7386aafd5fc379e254881",
+        "hand": null,
+        "tracker_counts": null,
+        "availability": {"hand": "unavailable", "tracker": "unavailable"},
+        "action_results": {"left_play": "CLEAR", "right_play": "PASS", "my_play": "PLAY"},
+        "visible_counts": {"my_play": 5}
+      },
+      "expected": {"outcome": "reject"}
+    },
+    {
+      "name": "no_baseline_160826",
+      "input_kind": "synthetic_no_confirmed_baseline",
+      "synthetic_id": "no-confirmed-baseline-160826",
+      "generation": 1,
+      "audited_physical_marker": null,
+      "post": {
+        "synthetic_sequence": 1,
+        "synthetic_evidence_id": "synthetic-no-confirmed-baseline-160826",
+        "confirmation_count": 3,
+        "hand": null,
+        "tracker_counts": null,
+        "availability": {"hand": "unavailable", "tracker": "unavailable"},
+        "action_results": {"left_play": "CLEAR", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {}
+      },
+      "expected": {"outcome": "wait"}
+    },
+    {
+      "name": "no_baseline_171111",
+      "input_kind": "synthetic_no_confirmed_baseline",
+      "synthetic_id": "no-confirmed-baseline-171111",
+      "generation": 1,
+      "audited_physical_marker": null,
+      "post": {
+        "synthetic_sequence": 1,
+        "synthetic_evidence_id": "synthetic-no-confirmed-baseline-171111",
+        "confirmation_count": 3,
+        "hand": null,
+        "tracker_counts": null,
+        "availability": {"hand": "unavailable", "tracker": "unavailable"},
+        "action_results": {"left_play": "CLEAR", "right_play": "CLEAR", "my_play": "CLEAR"},
+        "visible_counts": {}
+      },
+      "expected": {"outcome": "wait"}
+    }
+  ]
+}

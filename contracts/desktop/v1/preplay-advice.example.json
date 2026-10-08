@@ -1,0 +1,19 @@
+{
+  "protocol": "desktop.v1",
+  "type": "PREPLAY_ADVICE",
+  "sequence": 2,
+  "emittedAt": "2026-08-28T08:00:02Z",
+  "serverInstanceId": "server-example-1",
+  "dealId": "deal-example-1",
+  "generation": 1,
+  "stage": "CALL_LANDLORD",
+  "hand": ["3", "3", "4", "4", "5", "5", "6", "6", "7", "7", "8", "8", "9", "10", "J", "A", "2"],
+  "bottomCards": [],
+  "availableActions": ["CALL", "NO_CALL"],
+  "callPromptSeen": true,
+  "robPromptSeen": false,
+  "modelId": "preplay-v1",
+  "action": "CALL",
+  "score": 0.72,
+  "threshold": 0.5
+}
